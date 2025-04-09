@@ -1,0 +1,89 @@
+{
+    "geode": "2.0.0",
+    "version": "v1.0.0",
+    "id": "com.user.geodemegahelper",
+    "name": "GeodeMegaHelper",
+    "developer": "GeodeMegaHelper Team",
+    "description": "A free alternative to Mega Hack with essential features for Geometry Dash",
+    "resources": {
+        "icons": [
+            "resources/icons/*.png"
+        ]
+    },
+    "dependencies": [
+        {
+            "id": "geode.api",
+            "version": "2.0.0"
+        }
+    ],
+    "settings": {
+        "noclip": {
+            "name": "Noclip",
+            "description": "Pass through obstacles without dying",
+            "type": "bool",
+            "default": false
+        },
+        "hitboxes": {
+            "name": "Show Hitboxes",
+            "description": "Display hitbox boundaries",
+            "type": "bool",
+            "default": false
+        },
+        "accurate_percentage": {
+            "name": "Accurate Percentage",
+            "description": "Show exact level completion percentage",
+            "type": "bool",
+            "default": true
+        },
+        "practice_music": {
+            "name": "Practice Music Fix",
+            "description": "Keep music playing in practice mode",
+            "type": "bool",
+            "default": true
+        },
+        "instant_complete": {
+            "name": "Instant Complete",
+            "description": "Automatically complete level when near end",
+            "type": "bool",
+            "default": false
+        },
+        "auto_safe_mode": {
+            "name": "Auto Safe Mode",
+            "description": "Bypass anticheat for practice runs",
+            "type": "bool",
+            "default": false
+        },
+        "disable_death_effects": {
+            "name": "Disable Death Effects",
+            "description": "Remove death animations",
+            "type": "bool",
+            "default": false
+        },
+        "disable_particles": {
+            "name": "Disable Particles",
+            "description": "Turn off particle effects",
+            "type": "bool",
+            "default": false
+        },
+        "disable_pulse": {
+            "name": "Disable Pulse",
+            "description": "Turn off background pulsing",
+            "type": "bool",
+            "default": false
+        },
+        "player_speed": {
+            "name": "Player Speed",
+            "description": "Adjust gameplay speed",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.5,
+            "max": 2.0,
+            "step": 0.1
+        }
+    },
+    "tags": [
+        "Tool",
+        "Utility",
+        "Practice"
+    ]
+}
